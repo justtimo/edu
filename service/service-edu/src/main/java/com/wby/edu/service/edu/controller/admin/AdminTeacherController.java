@@ -51,7 +51,7 @@ public class AdminTeacherController {
         if (b){
             return "ok";
         }else {
-            return "false";
+            return "false1";
         }
     }
 
