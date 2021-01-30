@@ -5,7 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>edu-common</module>
-        <module>service</module>
+        <module>edu-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -195,14 +195,6 @@
                 <groupId>org.apache.xmlbeans</groupId>
                 <artifactId>xmlbeans</artifactId>
                 <version>${apache.xmlbeans.version}</version>
-            </dependency>
-
-            <!--devtools热部署-->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-devtools</artifactId>
-                <optional>true</optional>
-                <scope>true</scope>
             </dependency>
 
         </dependencies>
